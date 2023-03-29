@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.betterlink">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/btrlink"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/btrlink"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BetterLink">
+        <activity android:name=".admin_editProfile"></activity>
+        <activity android:name=".admin_manageHospital" />
+        <activity android:name=".admin_manageUser" />
+        <activity android:name=".driv_editProfile" />
+        <activity android:name=".driv_viewLocation" />
+        <activity android:name=".rec_editProfile" />
+        <activity android:name=".rec_viewForm" />
+        <activity android:name=".para_editProfile" />
+        <activity android:name=".para_selectHospital" />
+        <activity android:name=".para_addForm" />
+        <activity
+            android:name=".Paramedic_Dashboard"
+            android:label="@string/title_activity_paramedic__dashboard"
+            android:theme="@style/Theme.BetterLink.NoActionBar" />
+        <activity android:name=".NoInternet" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".Registration" />
+        <activity android:name=".RoleSelect" />
+        <activity android:name=".WelcomePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
