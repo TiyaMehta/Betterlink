@@ -1,1 +1,1 @@
-==>Made in Android + Java. Bridges gaps in the Health Industry.
+==> Made in Android + Java. Bridges gaps in the Health Industry. Also incorporated usage of Internet of Things(IOT).
